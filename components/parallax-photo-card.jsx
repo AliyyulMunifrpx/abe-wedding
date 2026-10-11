@@ -18,7 +18,7 @@ export function ParallaxPhotoCard({
 
   // Supaya selalu 3/4 dari lebar card (currentWidth * 0.75)
   const extraWidth =
-    photoExtraWidth !== undefined ? photoExtraWidth : currentWidth * 0.75;
+    photoExtraWidth !== undefined ? photoExtraWidth : currentWidth * 0;
 
   const scale = (currentWidth + extraWidth) / currentWidth;
   const scaledWidth = currentWidth * scale;

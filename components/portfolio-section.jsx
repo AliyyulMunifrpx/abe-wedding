@@ -121,7 +121,6 @@ export default function WeddingSection() {
               man={item.man}
               woman={item.woman}
               meta={meta}
-              photoExtraWidth={photoExtraWidth}
               frameHeight={frameHeight} // Passing tinggi dinamis
             />
           )}
